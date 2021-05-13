@@ -1,4 +1,4 @@
-const request = require('postman-request');
+const request = require('request');
 
 const forecast = (lat, long, callback) => {
   const url =
